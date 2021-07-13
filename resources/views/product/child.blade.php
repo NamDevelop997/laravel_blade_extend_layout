@@ -4,5 +4,6 @@
 
 @section('search')
     @parent
-    <h3>This is search page</h3>
+    <h3>number: {{ $number }}</h3>
+    <p>Hello {!! $name !!}</p>
 @endsection

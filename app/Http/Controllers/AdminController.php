@@ -13,7 +13,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('product.child');
+        $number = 2;
+        $name = '<b>Ma Van Nam</b>';
+        return view('product.child', compact('number', 'name'));
     }
 
     /**
